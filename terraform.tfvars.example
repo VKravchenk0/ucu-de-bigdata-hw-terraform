@@ -1,0 +1,5 @@
+project_id = ""
+tf_state_bucket_name= ""
+staging_bucket_name = ""
+cluster_name = ""
+ssh_source_ip = ""
