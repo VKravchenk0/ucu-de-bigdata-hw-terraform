@@ -29,3 +29,15 @@ variable "ssh_source_ip" {
   description = "Public IP allowed to SSH (CIDR, e.g. 1.2.3.4/32)"
   type        = string
 }
+
+variable "kafka_topic" {
+  description = "Kafka topic name"
+  type        = string
+  default     = "fraud-detection"
+}
+
+variable "kafka_partitions" {
+  description = "Number of partitions for the Kafka topic"
+  type        = number
+  default     = 3
+}
