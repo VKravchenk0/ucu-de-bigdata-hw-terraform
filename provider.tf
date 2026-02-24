@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket  = var.tf_state_bucket_name
+    bucket  = "playground-482811-terraform-state"
     prefix  = "dataproc/cluster"
   }
 }

@@ -15,11 +15,6 @@ variable "zone" {
   default     = "us-central1-a"
 }
 
-variable "tf_state_bucket_name" {
-  description = "Terraform state bucket name"
-  type        = string
-}
-
 variable "staging_bucket_name" {
   description = "GCS bucket for Dataproc staging"
   type        = string

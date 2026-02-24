@@ -1,6 +1,6 @@
 1. Сконфігурувати gsutil
 2. Заповнити значеннz d terraform.tfvars
-3. Створити бакет для збереження terraform-стейту
+3. Створити бакет для збереження terraform-стейту. Вказати його в provider.tf
 ```bash
 gsutil mb \
   -p playground-482811 \
